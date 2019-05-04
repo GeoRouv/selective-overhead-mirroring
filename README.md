@@ -1,4 +1,5 @@
 # Selective Overhead Mirroring
+This mirroring system consists of a series of web-based programs that all achieve the desired file transfer. Individual programs should use threads to achieve data transfer.
 
 ## Description
 The figure at the bottom shows the organization and interaction of programs involved in the implementation of the system. The Internet Client Program "MirrorInitiator" can communicate with a MirrorServer on any machine by providing not only the devices but also specific elements of the corresponding file systems.
