@@ -1,5 +1,6 @@
-# Selective_Overhead_Mirroring
+# Selective Overhead Mirroring
 
+## Description
 The figure at the bottom shows the organization and interaction of programs involved in the implementation of the system. The Internet Client Program "MirrorInitiator" can communicate with a MirrorServer on any machine by providing not only the devices but also specific elements of the corresponding file systems.
 
 The user of MirrorInitiator quotes the MirrorServer and one or more ContentServers web addresses as parameters, along with a delay tolerance parameter that should be demonstrated by each ConteServer that participates in mirroring.
@@ -10,11 +11,11 @@ The remote devices will run the ContentServer program, which is responsible for 
 
 ![Screenshot](Screenshot_1.png)
 
-# Compilation:
+## Compilation:
 	$make
 	($make clean for file clean)
 	
-# Run(example):
+## Run(example):
 	./MirrorInitiator -n 192.168.1.9 -p 1121 -s 192.168.1.9:1050:feels.jpg:2,192.168.1.9:1051:src:1,192.168.1.9:1052:home:3
     ./MirrorServer -p 1121 -w 3 -m ~/Desktop/Results 
     ./ContentServer -p 1050 -d ~/Pictures
