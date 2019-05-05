@@ -19,7 +19,7 @@ The remote devices will run the ContentServer program, which is responsible for 
 ## Run(example):
 	$ ./MirrorInitiator -n 192.168.1.9 -p 1121 -s 192.168.1.9:1050:feels.jpg:2,192.168.1.9:1051:src:1,192.168.1.9:1052:home:3
 	$ ./MirrorServer -p 1121 -w 3 -m ~/Desktop/Results 
-    	$ ./ContentServer -p 1050 -d ~/Pictures
+	$ ./ContentServer -p 1050 -d ~/Pictures
     	$ ./ContentServer -p 1051 -d ~/Desktop
     	$ ./ContentServer -p 1052 -d ~/Downloads
 	
