@@ -12,11 +12,11 @@ The remote devices will run the ContentServer program, which is responsible for 
 
 ![Screenshot](Screenshot_1.png)
 
-## Compilation:
+## Compile
 	$ make
 	($ make clean for file clean)
 	
-## Run(example):
+## Run
 	$ ./MirrorInitiator -n 192.168.1.9 -p 1121 -s 192.168.1.9:1050:feels.jpg:2,192.168.1.9:1051:src:1,192.168.1.9:1052:home:3<br>
 	$ ./MirrorServer -p 1121 -w 3 -m ~/Desktop/Results<br>
 	$ ./ContentServer -p 1050 -d ~/Pictures<br>
