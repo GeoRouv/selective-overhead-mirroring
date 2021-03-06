@@ -1,4 +1,4 @@
-# Selective Overhead Mirroring
+# selective-overhead-mirroring
 This mirroring system consists of a series of web-based programs that all achieve the desired file transfer. Individual programs should use threads to achieve data transfer.
 
 ## Description
